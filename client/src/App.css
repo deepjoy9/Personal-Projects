@@ -4,17 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.App {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
-  font-family: "Arial", sans-serif;
-  min-height: 100vh;
-  margin-top: 100px;
-}
+
 body {
   background: #1d2125;
   /* background-color: #f8f9fa; */
@@ -163,4 +153,17 @@ body {
 
 .project-link:hover {
   background-color: #0056b3;
+}
+
+/* Card List */
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  min-height: 100vh;
+  margin-top: 100px;
 }
