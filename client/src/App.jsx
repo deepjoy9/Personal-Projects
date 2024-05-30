@@ -1,16 +1,19 @@
-import Navbar from "./components/Navbar";
 import "./App.css";
-import Card from "./components/Card";
+import Navbar from "./components/Navbar";
 import CardList from "./components/CardList";
+import { Route, Routes } from "react-router-dom";
+import AddCard from "./components/AddCard";
+import Layout from "./components/Layout";
+import AdminPage from "./pages/AdminPage";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navbar />
-        <CardList />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<CardList />} />
+        <Route path="/admin" element={<AdminPage />} />
+      </Route>
+    </Routes>
   );
 }
 
