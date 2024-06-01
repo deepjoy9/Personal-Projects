@@ -12,6 +12,11 @@ body {
   font-size: 14px;
 }
 
+/* Index page */
+.index-page {
+  margin-top: 100px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -165,7 +170,6 @@ body {
   padding: 20px;
   font-family: "Arial", sans-serif;
   min-height: 100vh;
-  margin-top: 100px;
 }
 
 /* Add Card */
@@ -176,7 +180,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
-  margin-top: 40px;
+  margin-top: 120px;
 }
 
 .add-card-form h2 {
@@ -216,8 +220,21 @@ body {
 }
 
 /* Admin Page */
-.admin-page{
+.admin-page {
   justify-content: center;
   text-align: center;
   margin-top: 120px;
+}
+.projects-list{
+  margin-top: 20px;
+}
+.projects-list-heading{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Add Project Card */
+.add-project-card {
+  display: flex;
+  justify-content: center;
 }
