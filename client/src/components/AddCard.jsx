@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const AddCard = ({ onAdd }) => {
   const [formData, setFormData] = useState({
@@ -17,17 +18,35 @@ const AddCard = ({ onAdd }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onAdd(formData);
-    // Reset form data after submission
-    setFormData({
-      image: "",
-      name: "",
-      info: "",
-      liveLink: "",
-      sourceLink: "",
-    });
+
+    try {
+      const response = await fetch("http://localhost:3000/admin/add", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success("Project added successfully!");
+        // Reset form data after successful submission
+        setFormData({
+          image: "",
+          name: "",
+          info: "",
+          liveLink: "",
+          sourceLink: "",
+        });
+      } else {
+        const errorData = await response.json();
+        toast.error(`Error adding project: ${errorData.message}`);
+      }
+    } catch (error) {
+      toast.error(`Error adding project: ${error.message}`);
+    }
   };
 
   return (
