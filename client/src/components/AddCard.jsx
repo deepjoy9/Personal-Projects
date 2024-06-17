@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { BASE_URL } from "../utils/apiConstants";
 
 const AddCard = ({ onAdd }) => {
   const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ const AddCard = ({ onAdd }) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/admin/add", {
+      const response = await fetch(`${BASE_URL}/admin/add`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

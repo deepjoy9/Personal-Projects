@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
+import { BASE_URL } from "../utils/apiConstants";
 
 const CardList = () => {
   const [projects, setProjects] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/projects")
+    fetch(`${BASE_URL}/projects`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
