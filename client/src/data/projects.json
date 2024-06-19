@@ -1,51 +1,45 @@
 [
   {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718641507/My-Project-Images/bill-splitting-app_yiswid.png",
+    "name": "Bill Splitter",
+    "info": "Effortless Management and Splitting of Bills Among Friends and Groups",
+    "liveLink": "https://github.com/deepjoy9/Bill-Splitting-App",
+    "sourceLink": "https://github.com/deepjoy9/Bill-Splitting-App"
   },
   {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718641508/My-Project-Images/mern-blog-app_zoikrz.png",
+    "name": "Dev Diary",
+    "info": "Dynamic Fullstack Blogging Platform for Seamless Content Publishing",
+    "liveLink": "https://devdiary-blog.vercel.app/",
+    "sourceLink": "https://github.com/deepjoy9/Mern-Blog-App-V2"
   },
   {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718641508/My-Project-Images/cinesuggest_lnsdbz.png",
+    "name": "CineSuggest",
+    "info": "Dynamic Movie Recommendation Platform with Enhanced User Experience",
+    "liveLink": "https://cine-suggest.vercel.app/",
+    "sourceLink": "https://github.com/deepjoy9/Netflix-App"
   },
   {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718642346/My-Project-Images/taskshift_fsq1bh.png",
+    "name": "Task Shift",
+    "info": "Efficient Task Management with Intuitive Drag-and-Drop Interface",
+    "liveLink": "https://taskshift.vercel.app/",
+    "sourceLink": "https://github.com/deepjoy9/Task-Manager"
+  },
+
+  {
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718641509/My-Project-Images/youtube-clone_jwnes5.png",
+    "name": "Youtube Clone (UI)",
+    "info": "Immersive Video Browsing Experience with Dynamic Features",
+    "liveLink": "https://youtube-project-pi.vercel.app/",
+    "sourceLink": "https://github.com/deepjoy9/Youtube-Project"
   },
   {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
-  },
-  {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
-  },
-  {
-    "image": "https://via.placeholder.com/300",
-    "name": "Project Name",
-    "info": "This is a short description of the project.",
-    "liveLink": "https://live-project-link.com",
-    "sourceLink": "https://github.com/project-source-link"
+    "image": "https://res.cloudinary.com/dfzzmqoho/image/upload/v1718641508/My-Project-Images/mealmaster_gbaax5.png",
+    "name": "MealMaster",
+    "info": "Streamlined Food Ordering Platform with Enhanced User Experience",
+    "liveLink": "https://meal-master.vercel.app/",
+    "sourceLink": "https://github.com/deepjoy9/Food-Ordering-App"
   }
 ]
