@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Service.module.css";
 
 const ServicePage = () => {
@@ -12,9 +13,9 @@ const ServicePage = () => {
           interactive features, I'm committed to delivering high-quality
           solutions that prioritize user satisfaction.
         </p>
-        <a href="mailto:deepjoysarkar9@email.com" className={styles.contactBtn}>
+        <Link className={styles.contactBtn} to="/contact">
           Contact Me
-        </a>
+        </Link>
       </div>
     </section>
   );

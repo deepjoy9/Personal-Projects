@@ -162,6 +162,11 @@ body {
 
 /* Card List */
 .cards-wrapper {
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 129px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
