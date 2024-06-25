@@ -19,7 +19,10 @@ const Navbar = () => {
             <span>&#9776;</span> // Hamburger icon
           )}
         </div>
-        <ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
+        <ul
+          className={`nav-menu ${isMenuOpen ? "active" : ""}`}
+          onClick={toggleMenu}
+        >
           <li>
             <Link to="/">Home</Link>
           </li>

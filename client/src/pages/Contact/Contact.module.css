@@ -53,6 +53,8 @@
     gap: 23px;
     margin-left: 4%;
     margin-right: 4%;
+    padding-left: 0;
+    padding-right: 1rem;
   }
 
   .text {
@@ -66,6 +68,6 @@
   }
 
   .link a {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
