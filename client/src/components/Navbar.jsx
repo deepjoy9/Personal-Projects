@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,16 +21,17 @@ const Navbar = () => {
         </div>
         <ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/service">Service</Link>
           </li>
           <li>
-            <a href="#">Service</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

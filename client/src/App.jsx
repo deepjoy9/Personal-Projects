@@ -6,6 +6,9 @@ import AdminPage from "./pages/AdminPage";
 import IndexPage from "./pages/IndexPage";
 import LoginPage from "./pages/LoginPage";
 import { UserContextProvider } from "./contexts/UserContext";
+import AboutPage from "./pages/About/AboutPage";
+import ContactPage from "./pages/Contact/ContactPage";
+import ServicePage from "./pages/Service/ServicePage";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
             <Route index element={<AdminPage />} />
             <Route path="add" element={<AddCard />} />
           </Route>
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/service" element={<ServicePage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Route>
       </Routes>
     </UserContextProvider>
